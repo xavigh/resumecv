@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* Global styles  */
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+}
+
+
+/* Header and footer sytles */
+
+header,
+footer {
+    background: #2b2d42;
+    color: #8d99ae;
+}
+
+
+/* Header  */
+
+header {
+    /* text-align: center; */
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    background: white;
+    display: inline-block;
+    padding: 15px;
+}
+
+
+/* Work experience sytles */
+
+.work {
+    background: #EDF2F4;
+}
+
+
+/* Education section */
+
+.education {
+    background: #19647E;
+}
